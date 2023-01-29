@@ -1,29 +1,29 @@
-const buyBtns = document.querySelectorAll('.js-buy-ticket');
-const modal = document.querySelector('.js-modal');
-const modalClose = document.querySelector('.js-modal-close');
-const modalContainer = document.querySelector('.js-modal-container');
+// const buyBtns = document.querySelectorAll('.js-buy-ticket');
+// const modal = document.querySelector('.js-modal');
+// const modalClose = document.querySelector('.js-modal-close');
+// const modalContainer = document.querySelector('.js-modal-container');
 
-showBuyTickets = () => {
-    modal.classList.add("open");
-}
-hideBuyTickets = () => {
-    modal.classList.remove("open");
-}
-
-
-
-for (const buyBtn of buyBtns) {
-    buyBtn.addEventListener('click', showBuyTickets)
-}
+// showBuyTickets = () => {
+//     modal.classList.add("open");
+// }
+// hideBuyTickets = () => {
+//     modal.classList.remove("open");
+// }
 
 
-modalClose.addEventListener('click', hideBuyTickets);
 
-modal.addEventListener('click', hideBuyTickets);
+// for (const buyBtn of buyBtns) {
+//     buyBtn.addEventListener('click', showBuyTickets)
+// }
 
-modalContainer.addEventListener('click', (e) => {
-    e.stopPropagation();
-})
+
+// modalClose.addEventListener('click', hideBuyTickets);
+
+// modal.addEventListener('click', hideBuyTickets);
+
+// modalContainer.addEventListener('click', (e) => {
+//     e.stopPropagation();
+// })
 
 
 
