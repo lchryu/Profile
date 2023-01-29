@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://banner2.cleanpng.com/20191001/gc/transparent-musical-note-icon-music-icon-5d93ae3cc2e344.5700187015699594847983.jpg">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- begin nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Profile</a></li>
+                <li><a href="#tour">Project</a></li>
+                
+            </ul>
+            <!-- end nav -->
+
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!-- Search btn-->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+        </div>
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Hello</h2>
+                <p class="text-description">Welcome home</p>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- about section -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">TRINH MINH ANH</h2>
+                <p class="about-text">
+                    <strong>Sinh viên năm 3 USH . Đã từng tham gia Chuyển động 24h , Cất cánh 2022 , Hoà ca , Zlife </strong>
+                </p>
+                <div class="row member-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <img src="./assets/img/logo/ảnh 1.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <img src="./assets/img/logo/ảnh 2.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center">
+                        <img src="./assets/img/logo/ảnh 3.jpg" alt="" class="member-img">
+                    </div>
+                </div>
+            </div>
+            <!-- end about section -->
+
+            <!-- begin Tour section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">PROJECT</h2>
+                 
+                    <!-- places -->
+                    <div class="row places-list">
+                        <div class="mt-16 col s-col-full col-third">
+                            <img src="./assets/img/logo/bài 1.png" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Tik Toker Tiểu Y Y Yêu Việt Phục</h3>
+                                <a href="./assets/html/bài1.html"><button class="btn js-buy-ticket s-full-width">Xem thêm</button></a>
+                            </div>
+                        </div>
+                        <div class="mt-16 col s-col-full col-third">
+                            <img src="./assets/img/logo/bài 2.png" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Chùm ảnh : "Hà Nội trong nắng nóng 40 độ"</h3>
+                                <a href="./assets/html/bài2.html"><button class="btn js-buy-ticket s-full-width">Xem thêm</button></a>
+                            </div>
+                        </div>
+                        <div class="mt-16 col s-col-full col-third">
+                            <img src="./assets/img/logo/bài 3.png" alt="" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Chiêu trò thuốc giả </h3>
+                                <a href="./assets/html/bài3.html"><button class="btn js-buy-ticket s-full-width">Xem thêm</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end tour section -->
+
+            
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter-alt"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">w3.css</a></p>
+        </div>
+
+
+
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="modal-heading-icon ti-bag"></i> Tickets
+                </header>
+
+
+                <div class="modal-body">
+                    <label for="ticket-quantity" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+
+                    <label for="ticket-email" class="modal-label">
+                        <i class="ti-user"></i>
+                        Send To
+                    </label>
+                    <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email">
+                    <button id="buy-tickets">
+                        Pay
+                        <i class="ti-check"></i>
+                    </button>
+                </div>
+
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="#">help?</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>
